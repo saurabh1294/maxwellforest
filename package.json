@@ -1,0 +1,22 @@
+{
+  "name": "maxwellforest",
+  "version": "1.0.0",
+  "description": "maxwellforest test automation demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saurabh1294/maxwellforest.git"
+  },
+  "keywords": [
+    "TDD"
+  ],
+  "author": "Saurabh Gattani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saurabh1294/maxwellforest/issues"
+  },
+  "homepage": "https://github.com/saurabh1294/maxwellforest#readme"
+}
