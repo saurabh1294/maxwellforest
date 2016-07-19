@@ -1,7 +1,7 @@
 // tests-moneywallet-spec.js
 describe('MaxwellForest TDD', function() {
 	it('should show the coffeecompany homepage', function() {
-		console.log('Visiting the coffeecompany website')
+		console.log('Visiting the coffeecompany website');
 		browser.driver.get('https://www.coffeecompany.com.au');
 	});
 });
