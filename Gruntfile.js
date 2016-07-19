@@ -23,7 +23,7 @@ module.exports = function(grunt) {
 	shell: {
 		deploy : {
 			command : [
-				'ping localhost -n 5 -w 1000',
+				'ping localhost -n 3 -w 1000 > NUL',
 				'protractor tests/conf.js'
 			].join('&&')
 		}
