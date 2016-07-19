@@ -80,7 +80,8 @@ describe('Run delivery order test', function() {
 		browser.driver.findElement(by.id('BecomeMember')).click();
 		browser.driver.findElement(by.xpath('.//*[.="Express Post"]')).click();
 		browser.driver.findElement(by.id('paypalPayment')).click();
-		//browser.driver.findElement(by.id('IsConfirmPaypal')).click(); - click on paypal disabled
+		browser.driver.executeScript('window.scrollTo(0,document.body.scrollHeight);');
+		
 		browser.driver.sleep(10000);
 	});
 });
